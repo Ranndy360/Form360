@@ -40,3 +40,16 @@ frontEnd/typings
 # System files
 frontEnd/.DS_Store
 frontEnd/Thumbs.db
+
+
+
+backEnd/HELP.md
+backEnd/target/
+backEnd/!.mvn/wrapper/maven-wrapper.jar
+
+
+### IntelliJ IDEA ###
+backEnd/.idea
+backEnd/*.iws
+backEnd/*.iml
+backEnd/*.ipr
