@@ -30,9 +30,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/datatables.net-dt/css/dataTables.dataTables.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/datatables.net/js/dataTables.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -93,14 +97,12 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/flowbite/dist/flowbite.css",
-              "node_modules/tailwindcss/dist/base.css",
-              "node_modules/tailwindcss/dist/components.css",
-              "node_modules/tailwindcss/dist/utilities.css",
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/datatables.net-dt/css/jquery.dataTables.css"
             ],
             "scripts": [
-              "node_modules/flowbite/dist/flowbite.js"
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/datatables.net/js/jquery.dataTables.js"
             ]
           }
         }
