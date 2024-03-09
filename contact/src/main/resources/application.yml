@@ -4,7 +4,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/message?useSSL=false
-    username: root
+    username: 
     password:
   jpa:
     show-sql: true
@@ -28,8 +28,8 @@ spring:
 #  prefix: Bearer
 twilio:
   account:
-    sid: ACbe03aa0d879c5b2c212ac2456785881d
+    sid:
   auth:
-    token: 53d670f0c0b161b6cb326081a265de55
+    token:
   phone:
     number: +12488342566
