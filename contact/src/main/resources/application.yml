@@ -4,32 +4,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/message?useSSL=false
-    username: 
+    username:
     password:
   jpa:
     show-sql: true
-#security:
-#  oauth2.resource.filter-order: 3
-#  signing-key: MaYzkSjmkzPC57L
-#  encoding-strength: 256
-#  security-realm: Spring security
-#  jwt:
-#    client-id: testjwtclientid
-#    client-secret: XY7kmzoNzl100
-#    grant-type: password
-#    scope-read: read
-#    scope-write: write
-#    resource-ids: jwtresourceid
-#jwt:
-#  secret: myKeySecret
-#  expiration: 604800
-#  header: Authorization
-#  authorities-key: scopes
-#  prefix: Bearer
-twilio:
-  account:
-    sid:
-  auth:
-    token:
-  phone:
-    number: +12488342566
